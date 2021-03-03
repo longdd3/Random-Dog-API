@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Varela Round', sans-serif;
+	line-height: 1.6;
+    color: #3a3a3a;
+}
+header {
+    background:#b5f580;
+    height: 100px;
+    text-align: center;
+
+}
+ 
+.logo {
+    color: #fdec88;
+    margin: 0;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    height: 145px;
+    background-image: url("../image/logo2.png");
+    line-height: 0;
+    background-size: 310px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 500px;
+    height: auto;
+    margin: 150px auto;
+
+}
+label {
+    color: #909090;
+    font-size: 1em;
+    text-align: left;
+
+}
+select {
+    text-transform: capitalize;
+}
+.selects {
+    width: 100%;
+    box-sizing: border-box;
+
+}
+input[type = "text"], select, textarea {
+    border: 2px solid #ddd;
+}
+input, textarea, select, fieldset {
+    margin-bottom: 1.5rem;
+}
+input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
+    height: 38px;
+    padding: 6px 10px;
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+button, input, select, textarea {
+    font: inherit;
+  
+}
+.card {
+    text-align: center;
+    border-radius: 6px;
+    background-color: #ddd;
+    border: solid 2px #f0dce5;
+    padding: 20px;
+    margin-bottom: 24px;
+}
+.card img {
+    width: 450px;
+    border-radius: 4px;
+    margin-bottom: 2.25rem;
+    cursor: pointer;
+}
+.card p {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+button[type="submit"] {
+    display: block;
+    margin: 0;
+}
+button {
+    background-color: #e92f4e;
+    color: white;
+    border: none;
+    padding: 9px 30px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    outline-style: none;
+    transition: .3s ease-out;
+    font-size: 15px;
+}
+button:hover{
+    background: #e02e4b;
+}
